@@ -18,6 +18,9 @@ talks:
     speaker: Arnaud Lauret
     description: |
       How the different way of providing hypermedia controls can affect end user and developer experience.
+    keywords:
+      - Hypermedia
+      - DX
     slidesUrl: https://speakerdeck.com/arnaudlauret/hypermedia-controls
   - title: HTTPLabs
     type: Stack Day
@@ -135,5 +138,3 @@ talks:
     speaker: John Wessel
     description: |
       You go to a conference and hear about a cool new technology, or a cool feature of an old technology. Then you try to install this technology... after hours of updating dependancies, googling how to articles, and pulling your hair out, you give up. Kitematic and Docker help with that. In this particular talk I will walk through installing postgres.
-  - title: 
-
