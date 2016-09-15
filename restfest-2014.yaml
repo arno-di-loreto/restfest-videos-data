@@ -36,11 +36,133 @@ talks:
     type: 5in5
     speaker: Eric Oestrich
   - title: Some History (Since I'm old enough to talk about history)
-    type:
+    type: 5in5
     speaker: Francois Boudreault
-    description:
+  - title: Music vs it
+    type: 5in5
+    speaker: Francois Collins
+    description: |
+      Moving from being a gigging musician to software development was surprisingly easy
+  - title: Scaling API Design
+    type: 5in5
+    speaker: Jason Harmon
+    description: |
+      When you're building a few APIs in a monolithic app, it's pretty straight forward. As new API products succeed and scale up, there are many things you'll wish you had considered. For instance, design consistency, discoverability, code generation, mocking and testing. If you add the right elements up-front, these concerns are trivial. You'll learn about some basic mechanics to build into your API program to ensure it's long-term success.
+  - title: IPFS - The Permanent Web
+    type: 5in5
+    speaker: Joel Clermont
+    description: |
+      Link rot is a problem we've all encountered on the web. You read a blog post someone wrote last year, which links to a paper. That link is now dead. There are also issues with versioning. Technical content should be updated, but how do we know when this content was last changed? What did the previous version(s) look like? The Wayback Machine is a noble initiative from the Internet Archive, but it can't solve this problem completely or efficiently.
+      Enter IPFS, the Interplanetary File System. This project is a protocol, a file system and a mechanism for distributing and browsing content. Leveraging existing technologies like BitTorrent, Git and Kademlia it aims to solve the problems mentioned above, along with several others.
+      I'll give a whirlwind tour of the project, its goals and its current state, with hopes of inspiring you to check it out and contribute your ideas.
+    slidesUrl: https://speakerdeck.com/jclermont/ipfs-the-permanent-web
+  - title: Data for the REST of us
+    type: 5in5
+    speaker: John Wheeler
+  - title: Hypermedia Clients and Protocols
+    type: 5in5
+    speaker: Josh Wingstrom
+  - title: Reactive Hypermedia
+    type: Extended Talk
+    speaker: Kevin Swiber
+    description: |
+      In the near future, everything will be connected: cities, enterprises, human beings, and more. This reality is just over the horizon, and it brings one of the largest challenges in building distributed systems. Today, developers often look to RESTful Web APIs to solve these problems. Are current trends in API design really prepared to handle the demands of the future? What’s missing from the equation?
+      In this session, you’ll learn new patterns for modeling Web APIs using state machines, hypermedia, and reactive streams to meet tomorrow’s challenges and make a solid attempt at standing the test of time.
+      Learn what you can do to make your API servers more scalable and resilient while allowing API clients to be event-driven and responsive. A real-world example will be given of how these concepts were used to build Zetta, an open source platform for the Internet of Things.
+    slidesUrl: http://www.slideshare.net/kswiber/reactive-hypermedia-a
+  - title: Hypermedia with Transit
+    type: 5in5
+    speaker: Larry Staton Jr
+    description: |
+      Transit is a format and set of libraries for conveying values between applications written in different programming languages and is designed to be implemented as an encoding on top of formats for which high performance processors already exist, specifically JSON and MessagePack, neither of which have hypermedia capabilities. This talk will briefly look at how we can use Transit with hypermedia.
+    slidesUrl: https://speakerdeck.com/statonjr/hypermedia-with-transit
+  - title: MIA
+    type: 5in5
+    speaker: Lukas Linhart
+    description: |
+      What am I missing in the Hypermedia debate
+  - title: Where to Hide the Complexity?
+    type: 5in5
+    speaker: Luke Stokes
+    description: |
+      Should we have complex messages or complex interpreters? What worked for DNA?
+    slidesUrl: https://docs.google.com/presentation/d/1GTesgj2i_AD5684jI6bvpbzehbjgEt7u3QbJEaobz1w/edit?usp=sharing
+  - title: CORS 101
+    type: 5in5
+    speaker: Manoj Agarwal
+    description: |
+      I want to talk about Cross-origin resource sharing (CORS), and how it works from both the server and the client. With the popularity of single-page client-rich applications, it's important for your API to allow access from JavaScript clients. CORS makes developer’s lives easier by providing a safe and flexible framework for cross-domain requests.
+    slidesUrl: https://docs.google.com/presentation/d/1lfhcwSBxSPYGCEmKU9fVAeze-TRJyopDUOAqBLJ5xBU
+  - title: A few thoughts on API constraints
+    type: 5in5
+    speaker: Mark Foster
+    slidesUrl: http://www.slideshare.net/fosrias/res-tfest-2014
+  - title: Documenting Hypermedia and State Machines
+    type: 5in5
+    speaker: Matthew Dobson
+    description: |
+      What are potential strategies for documenting Hypermedia, or the corresponding state machines that the APIs represent.
+    slidesUrl: https://www.dropbox.com/sh/y9dzgz7u8hzhex3/AACXwF8gHRs0d1uTVtEfo2F2a?dl=0
+  - title:
+    type: 5in5
+    speaker: Michael Ottoson
+  - title: Is there a sufficiently stable definition of REST?
+    type: 5in5
+    speaker: Mike Amundsen
+    description: |
+      This question was posed on the APPS-DISCUSS list recently. I think it's a good question. While some would simply answer "No", I think we can do better. REST is a style, not a spec but I think it can still be defined sufficiently. And a stable definition could go a long way toward helping everyone understand each other just a bit better.
+      I think a useful definition will incorporate bits of Fielding's dissertation plus some of his commentary and blog postings, all within a framework similar to that used to define other styles such as "Impressionism", "Swedish Modern", and "Gothic."
+      Let's see if we can come up with something useful at RESTFest!
+  - title: Creating the APIs of the Future
+    type: Extended Talk
+    speaker: Mike Amundsen
+    description: |
+      Change in inevitable. If your API will last a long time you need to handle change. APIs that can't handle change - that are static - are basically "dead." This talk covers suggestions on how you can handle changes over time using designs for messages on the wire as well as patterns for code on both the client and the server.
+  - title: Server-sent Events - another weird HTTP thang
+    type: 5in5
+    speaker: Patrick Mueller
+    slidesUrl: http://pmuellr.github.io/slides/2014/09-server-sent-events/
+  - title: RESTful Search API
+    type: 5in5
+    speaker: Phil Marsteau
+    description: |
+      Search capabilities (or complex query/filtering) is a common requirements when exposing REST APIs. I will review typical requirements and a couple of known approaches, then open up for new ideas/approaches I wouldn't be aware of.
+    slidesUrl: http://www.slideshare.net/pmarsteau/phil-marsteau-rest-fest-2014-restful-search-api
+  - title: "Fight to Win: Know Your Enemy"
+    type: 5in5
+    speaker: Ryan McAllen
+    slidesUrl: https://docs.google.com/presentation/d/1eW5hsqExkbhr5L-gyH2HoRS8PRiV6FQnqUUNt1GZKT4/edit#slide=id.p
+  - title: "HTTP: The Good Parts"
+    type: Keynote
+    speaker: Sean Cribbs
+    description: |
+      REST demands we think about resources, representations, and rich interactions; however, it's easy to forget the substrate upon which our beautiful hypermedia APIs "rest". HTTP has lots of interesting and powerful ways to enhance interaction and efficiency that most applications leave untapped because they focus so much on the act of processing a request, rather than the properties of the resource being requested. Let's look more closely at those HTTP features and then see how you can tap into them more declaratively with Webmachine.
     keywords:
-    slidesUrl:
+      - keynote
+    slidesUrl: https://speakerdeck.com/seancribbs/http-the-good-parts
+  - title: Niggling Conneg
+    type: 5in5
+    speaker: Sean Cribbs
+    description: |
+      How should web servers respond when it they are unable to satisfy the client's representational constraints? The HTTP RFCs are a little vague on the matter. These are some possibilities of what some "correct" responses might be.
+      This 5-in-5 talk came from discussions I had with Darrel Miller, Mike Amundsen and Larry Staton, Jr. at RESTfest 2014.
+    slidesUrl: https://speakerdeck.com/seancribbs/niggling-conneg
+  - title: Language lesson and a rant about education
+    type: 5in5
+    speaker: Shelby Switzer
+  - title: The Hypermedia Project
+    type: 5in5
+    speaker: Stephen Mizell
+    description: |
+      I'd like to speak about work being done on The Hypermedia Project by several people, specifically around the libraries for consuming hypermedia messages in multiple media types and providing a general interface to the data in these messages. I'll discuss why we think it's helpful for building hypermedia clients and servers, along with showing examples of how it can be used.
+    keywords:
+      - hypermedia
+    slidesUrl: https://docs.google.com/presentation/d/1C-JiC5FQYz-N4aPFtcu-pochufi-HfwZqzuWHPqDBoE/edit?usp=sharing
+  - title: Mountaintop Removal
+    type: 5in5
+    speaker: Steve Brownlee
+    description: |
+      A five in five talk about ideas I've been considering authoring to let client developers easily explore a hypermedia API, independent of media types used, and then potentially stub out views, view models, controllers, etc. for use in a project. Would need to have extension points so that others can write plugins to handle integration with their frameworks of choice.
 
 # REMOVE
 
