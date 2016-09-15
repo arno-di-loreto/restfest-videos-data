@@ -1,0 +1,55 @@
+event: REST Fest
+location: Greenville
+year: 2014
+talks:
+  - title: Electrons to APIs
+    type: 5in5
+    speaker: Adam Magaluk
+  - title: Retrofitting an existing platform
+    type: 5in5
+    speaker: Cameron Esdaile
+  - title: Introducing hyper+json
+    type: 5in5
+    speaker: Cameron Bytheway
+    description: |
+      Introducing hyper+json, a media type built for simplicity and flexibility. I'd like to talk about the core decisions made and go through examples of real-world APIs using hyper+json, as well as a few tools for working with it both on the server and client.
+  - title: What are the biggest pitfalls of REST?
+    type:
+    speaker: Court Brown
+    description: |
+      Clashes with competing philosophies. Common crippling mistakes. Competing architectures (not SOAP)
+  - title: Putting the Design back into TDD
+    type: 5in5
+    speaker: Dane King
+    slidesUrl: https://docs.google.com/presentation/d/1z8iq70B1CwJbryMzyJTzvdJjZep3CZABkJbVQwt88qc/edit#slide=id.ge6a556f_1_0
+  - title: What is the IETF, how does it work, and why should I care?
+    speaker: Darrel Miller
+  - title: Falling into the pit of success
+    type: 5in5
+    speaker: Dave Nolan
+    description: |
+      Continuous delivery, BDD/TDD, microservices, REST: four ways we try to fall into the pit of success, something they have in common, and the conversations we need to have about REST.
+  - title: How do I scale REST for large Data?
+    type: 5in5
+    speaker: David Heath
+  - title: Showing off RspecApiDocumentation
+    type: 5in5
+    speaker: Eric Oestrich
+  - title: Some History (Since I'm old enough to talk about history)
+    type:
+    speaker: Francois Boudreault
+    description:
+    keywords:
+    slidesUrl:
+
+# REMOVE
+
+  - title: Hypermedia controls
+    type: 5in5
+    speaker: Arnaud Lauret
+    description: |
+      How the different way of providing hypermedia controls can affect end user and developer experience.
+    keywords:
+      - Hypermedia
+      - DX
+    slidesUrl: https://speakerdeck.com/arnaudlauret/hypermedia-controls
